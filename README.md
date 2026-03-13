@@ -24,3 +24,20 @@ Configured TheHive: Set up the main configuration file so TheHive knew exactly w
 Started Services in Order: Manually synced the startup sequence—Cassandra, then Elasticsearch, then TheHive—to prevent connection errors.
 
 Integrated Wazuh: Connected TheHive and Wazuh so that security alerts would automatically flow into the incident response platform.
+
+
+## Day 4
+
+I configured Wazuh to collect telemetry from a Windows endpoint and created a custom alert to detect Mimikatz activity.
+
+A significant portion of the project involved installing and troubleshooting the Wazuh agent and Sysmon on the Windows VM to ensure proper data collection.
+
+I used Mimikatz, a common Red Team tool for extracting credentials, to simulate a real-world attack.
+
+I authored a custom Wazuh rule specifically to identify and flag the unique behavior of Mimikatz.
+
+To run the test, I had to configure Windows Defender to allow the download of a "dangerous" file and set up a folder exclusion so the tool wouldn't be deleted during execution.
+
+Once these configurations were in place, I successfully ran the attack and confirmed that the security events were visible in the Wazuh dashboard.
+
+<img width="1932" height="66" alt="image" src="https://github.com/user-attachments/assets/8a8e46b1-caca-4648-ae5c-47d86bb1bdea" />
