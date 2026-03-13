@@ -41,3 +41,11 @@ To run the test, I had to configure Windows Defender to allow the download of a 
 Once these configurations were in place, I successfully ran the attack and confirmed that the security events were visible in the Wazuh dashboard.
 
 <img width="1932" height="66" alt="image" src="https://github.com/user-attachments/assets/8a8e46b1-caca-4648-ae5c-47d86bb1bdea" />
+
+
+
+## Day 5
+
+Connect Shuffle (SOAR)
+Send alert to TheHive
+Send to SOC Analyst via Email
