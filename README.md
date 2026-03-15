@@ -54,13 +54,10 @@ The goal of today's setup is to automate incident response using a SOAR workflow
 4. Send details to the thehive to create alert
 5. Send email to soc analyst to begin investigation
 
-What’s Working (The Success)
 - Wazuh is talking to Shuffle: When Mimikatz runs on VM, Shuffle sees it. It successfully linked.
 - Set up a process to "grab" the SHA256 hash from the messy log files so it can be used for searching.
 
-What's not Working
-- VirusTotal (The "URL Error"): I'm stuck here because of a small formatting mismatch. The node is looking for the hash, but because of a name or space error, it’s sending an empty request.
-- I couldn't find the theHive app in the Shuffle library. This is likely a search or versioning quirk in the Shuffle interface.
+## Day 6
 
 
 
