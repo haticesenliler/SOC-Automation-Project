@@ -59,6 +59,5 @@ The goal of today's setup is to automate incident response using a SOAR workflow
 
 ## Day 6
 
-
-
+<img width="1222" height="724" alt="Image" src="https://github.com/user-attachments/assets/4485489d-b505-4304-b257-6219140f7d5f" />
 
